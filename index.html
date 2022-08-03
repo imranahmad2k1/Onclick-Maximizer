@@ -40,21 +40,25 @@
     <div id="fullpage">
         <button id="close" onclick="closer()">X</button>
     </div>
-
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
     <script>
         const imgs = document.querySelectorAll('.gallery img');
         const fullPage = document.querySelector('#fullpage');
+        const body = document.querySelector('body');
 
         imgs.forEach(img => {
             img.addEventListener('click', function() {
                 fullPage.style.backgroundImage = 'url(' + img.src + ')';
                 fullPage.style.display = 'block';
+                body.style.overflow = "hidden";
             });
         });
 
         function closer(){
             let a = document.getElementById('fullpage');
             a.style.display='none';
+            body.style.overflow = "visible";    
+
         }
     </script>
 </body>
