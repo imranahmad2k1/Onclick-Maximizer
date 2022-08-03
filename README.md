@@ -59,4 +59,10 @@ Line: 45 `const imgs = document.querySelectorAll('.gallery img');`
 </div>
 ```
 
+<!-- CONTACT -->
+## Contact
 
+Imran Ahmad
+Twitter: [@him_imrannn](https://twitter.com/him_imrannn) <br>
+Email: meetimrang@gmail.com <br>
+Instagram: [@him_imran](https://instagram.com/him_imran)
