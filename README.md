@@ -51,7 +51,7 @@ Line: 45 `const imgs = document.querySelectorAll('.gallery img');`
 }
 ```
 
-### Add the following code on the page you want to use 'Onclick Maximizer'
+### 3. Add the following code on the page you want to use 'Onclick Maximizer'
 
 ```html
 <div id="fullpage">
